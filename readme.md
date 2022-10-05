@@ -5,13 +5,13 @@ We're building llvm/clang 15.0.1 on ubuntu:22.04.
 
 | host/platform/arch     |     total time |   x  |
 |------------------------|---------------:|-----:|
-| m1/**macos**/aarch64   |       10:48.52 | 0.5x |
+| m1/**macos**/aarch64   |   **10:48.52** | 0.5x |
 | m1/docker/aarch64	     |       21:22.89 |   1x |
-| m1/docker+qemu/amd64   |     3:22:42.00 | 9.5x |
+| m1/docker+qemu/amd64   |   _3:22:42.00_ | 9.5x |
 | m1/colima/aarch64      |       21:01.57 |   1x |
 | m1/colima/amd64        |                |      |
 | m1/UTM/aarch64         |       20:39.35 |   1x |
-| m1/UTM+rosetta2/amd64  |       40:23.92 | 1.9x |
+| m1/UTM+rosetta2/amd64  |   **40:23.92** | 1.9x |
 | corei7/**macos**/amd64 |                |      |
 | corei7/docker/amd64    |     1:03:59.00 | 2.8x |
 | corei7/colima/amd64    |                |      |
