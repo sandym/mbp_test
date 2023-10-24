@@ -2,7 +2,7 @@
 
 INSTALL_DIR=/work/llvm
 BUILD_DIR=/work/llvm_build
-TAG=llvmorg-15.0.1
+TAG=llvmorg-17.0.2
 
 mkdir -p ${BUILD_DIR}
 
